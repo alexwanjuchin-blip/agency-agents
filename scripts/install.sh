@@ -23,6 +23,7 @@
 #   openclaw     -- Copy workspaces to ~/.openclaw/agency-agents/
 #   qwen         -- Copy SubAgents to ~/.qwen/agents/ (user-wide) or .qwen/agents/ (project)
 #   zcode        -- Copy agents to ~/.zcode/agents/ (global) or .zcode/agents/ (project)
+#   kimi         -- Copy agent specs (YAML + system prompt) to ~/.config/kimi/agents/
 #   codex        -- Copy custom agent TOML files to ~/.codex/agents/
 #   osaurus      -- Copy skills to ~/.osaurus/skills/
 #   hermes       -- Copy lazy-router plugin to ~/.hermes/plugins/ and enable it
@@ -50,8 +51,9 @@
 #   --help                Show this help
 #
 # Env: CLAUDE_CONFIG_DIR, COPILOT_AGENT_DIR, CURSOR_RULES_DIR, GEMINI_AGENTS_DIR,
-#      OPENCODE_AGENTS_DIR, OPENCLAW_DIR, QWEN_AGENTS_DIR, CODEX_AGENTS_DIR,
-#      OSAURUS_SKILLS_DIR, HERMES_HOME, HERMES_PLUGIN_DIR, VIBE_HOME
+#      OPENCODE_AGENTS_DIR, OPENCLAW_DIR, QWEN_AGENTS_DIR, ZCODE_AGENTS_DIR,
+#      KIMI_AGENTS_DIR, CODEX_AGENTS_DIR, OSAURUS_SKILLS_DIR, HERMES_HOME,
+#      HERMES_PLUGIN_DIR, VIBE_HOME
 #      override default install paths (checked before hardcoded defaults).
 #
 # --- USAGE-END ---  (sentinel for usage(); do not remove)
@@ -309,6 +311,7 @@ resolve_dest() {
     openclaw)    var="OPENCLAW_DIR" ;;
     qwen)        var="QWEN_AGENTS_DIR" ;;
     zcode)       var="ZCODE_AGENTS_DIR" ;;
+    kimi)        var="KIMI_AGENTS_DIR" ;;
     codex)       var="CODEX_AGENTS_DIR" ;;
     osaurus)     var="OSAURUS_SKILLS_DIR" ;;
     hermes)      var="HERMES_PLUGIN_DIR" ;;
