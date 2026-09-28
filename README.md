@@ -422,6 +422,7 @@ The unique specialists who don't fit in a box.
 | 🧡 [Aging Parent Care Companion](specialized/healthcare-aging-parent-care-companion.md) | Family caregiver decision-support | Appointment/medication coordination, care-team comms, caregiver wellbeing (HIPAA-aligned) |
 | 🏛️ [Master Plan Architect](specialized/specialized-master-plan-architect.md) | Architectural teaching, red-team plan critique | Deep architecture teaching, risk critique, comprehensive Markdown implementation plans (no code execution) |
 | 🎧 [Focus Music Architect](specialized/specialized-focus-music-architect.md) | Instrumental focus-music prompt engineering, neuroacoustics | Soundscape architecture, BPM curves, binaural layers for generative audio models |
+| 🪨 [Obsidian Knowledge Architect](specialized/specialized-obsidian-knowledge-architect.md) | Obsidian vaults, Bases, JSON Canvas, CLI automation | Building connected, queryable vaults and web-clipping pipelines |
 
 ### 💵 Finance Division
 
