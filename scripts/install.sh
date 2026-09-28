@@ -1433,7 +1433,7 @@ main() {
     printf "  Tools:   %s\n" "${SELECTED_TOOLS[*]}"
     if $SELECTION_ACTIVE; then
       [[ ${#FILTER_DIVISIONS[@]} -gt 0 ]] && printf "  Teams:   %s\n" "${FILTER_DIVISIONS[*]}"
-      [[ ${#FILTER_AGENTS[@]} -gt 0 ]]    && printf "  Agents:  %s\n" "${FILTER_AGENTS[*]}"
+      [[ ${#FILTER_AGENTS[@]} -gt 0 ]]    && printf "  Slugs:   %s\n" "${FILTER_AGENTS[*]}"
       [[ -n "$AGENTS_FILE" ]]             && printf "  File:    %s\n" "$AGENTS_FILE"
     else
       printf "  Teams:   all (%s)\n" "${#ALL_DIVISIONS[@]}"
